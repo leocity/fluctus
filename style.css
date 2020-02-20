@@ -7,7 +7,7 @@ canvas {
    display: block;
    vertical-align: bottom;
 } /* ---- particles.js container ---- */
-.text{position:relative;padding:20px;top:20px;  font-size:2.5vmax;}
+.text{position:relative;padding:20px;top:20px;  font-size:5vmax;}
 
 #particles-js { 
    position: absolute;
