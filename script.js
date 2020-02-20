@@ -6,30 +6,30 @@ particlesJS("particles-js", {
    particles: {
       number: {
          value: 40,
-         density: { enable: true, value_area: 415.6863397155046 }
+         density: { enable: true, value_area: 700.6863397155046 }
       },
       color: { value: "#ffffff" },
       shape: {
          type: "polygon",
-         stroke: { width: 0.5, color: "#165e05" },
-         polygon: { nb_sides: 6 },
-         image: { src: "img/github.svg", width: 100, height: 100 }
+         stroke: { width: 0.1, color: "#165e05" },
+         polygon: { nb_sides: 6},
+         image: { src: "https://image.flaticon.com/icons/svg/464/464140.svg", width: 80, height: 80}
       },
       opacity: {
-         value: 0.323294231104978,
+         value: 0.223294231104978,
          random: true,
-         anim: { enable: false, speed: 3, opacity_min: 0.1, sync: false }
+         anim: { enable: true, speed:0.5, opacity_min: 0.2, sync: false }
       },
       size: {
-         value: 10.313726794310092,
+         value: 22.313726794310092,
          random: true,
-         anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+         anim: { enable: true, speed: 4, size_min: 15, sync: false }
       },
       line_linked: {
          enable: true,
-         distance: 200,
-         color: "#a7a7a7",
-         opacity: 0.27435298421223303,
+         distance: 150,
+         color: "#ffffff",
+         opacity: 0.57435298421223303,
          width: 1
       },
       move: {
@@ -42,23 +42,29 @@ particlesJS("particles-js", {
          bounce: false,
          attract: {
             enable: true,
-            rotateX: 4821.961540699854,
-            rotateY: 4988.236076586055
+            rotateX: 410.961540699854,
+            rotateY: 490.236076586055
          }
       }
    },
-   interactivity: {
-      detect_on: "window",
+    interactivity: {
+      detect_on: "canvas",
       events: {
-         onhover: { enable: false, mode: "grab" },
+         onhover: { enable: false, mode: "repulse" },
          onclick: { enable: true, mode: "push" },
          resize: true
       },
       modes: {
          grab: { distance: 400, line_linked: { opacity: 1 } },
-         bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+         bubble: {
+            distance: 400,
+            size: 40.00000000000001,
+            duration: 2,
+            opacity: 8,
+            speed: 3
+         },
          repulse: { distance: 200, duration: 0.4 },
-         push: { particles_nb: 2 },
+         push: { particles_nb: 4 },
          remove: { particles_nb: 2 }
       }
    },
@@ -81,3 +87,5 @@ update = function() {
    requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+
