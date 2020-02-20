@@ -1,4 +1,9 @@
 /* ---- reset ---- */
+
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+
 body {
    margin: 0;
    font: normal 75% Arial, Helvetica, sans-serif;
@@ -7,18 +12,18 @@ canvas {
    display: block;
    vertical-align: bottom;
 } /* ---- particles.js container ---- */
-.text{position:relative;padding:20px;top:20px;  font-size:5vmax;}
+.text{position:relative;top:90%; left:5%;  font-size:2.5vmax; text-align:right;margin-right:0;-webkit-text-stroke: 0.2px black;font-family: 'Libre Baskerville', serif;}
 
 #particles-js { 
    position: absolute;
    width: 100%;
    height: 100%;
    background-color: #647e62;
-   background-image: url("");
+   background-image: url("https://papers.co/wallpaper/papers.co-vm26-poly-art-abstract-green-pattern-30-wallpaper.jpg");
    background-repeat: no-repeat;
-   background-size: contain;
-   background-position: 50% 50%;
-  
+   background-size: cover;
+   
+  background-position:50% 50%;
    color:white;
    overflow:hidden;
 } /* ---- stats.js ---- */
