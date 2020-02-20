@@ -5,7 +5,7 @@ $("#particles-js").fadeIn();
 particlesJS("particles-js", {
    particles: {
       number: {
-         value: 40,
+         value: 20,
          density: { enable: true, value_area: 700.6863397155046 }
       },
       color: { value: "#ffffff" },
@@ -21,7 +21,7 @@ particlesJS("particles-js", {
          anim: { enable: true, speed:0.5, opacity_min: 0.2, sync: false }
       },
       size: {
-         value: 22.313726794310092,
+         value: 28.313726794310092,
          random: true,
          anim: { enable: true, speed: 4, size_min: 15, sync: false }
       },
@@ -34,7 +34,7 @@ particlesJS("particles-js", {
       },
       move: {
          enable: true,
-         speed: 3,
+         speed: 4,
          direction: "none",
          random: true,
          straight: false,
